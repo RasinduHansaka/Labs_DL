@@ -1,0 +1,5 @@
+1.What happens when the number of hidden nodes increases?
+Accuracy is low with very few hidden units (underfitting). It improves as hidden units increase (more capacity). After a point, gains plateau or fluctuate; the model may start to overfit.
+
+2.Explain the accuracy pattern when hidden nodes increase.
+It’s the bias–variance trade-off. More hidden units reduce bias and fit complex boundaries, improving accuracy up to a threshold. Beyond that, variance grows and generalization doesn’t consistently improve.
